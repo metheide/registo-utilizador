@@ -1,0 +1,68 @@
+body {
+    background-color: #1a1a1e;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+
+}
+
+#principal{
+    background-color: #242442;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+    min-height: 400px;
+    max-width: 500px;
+    text-align: center;
+    color: white;
+
+}
+
+#principal h1{
+    font-size: 40px;
+    color: 7f78d2;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid #white;
+}
+
+#password{
+    display: flex;
+
+
+button{
+    padding: 10px 30px;
+    background-color: #a29fc9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+button:hover{
+    background-color: #544ea1;
+}
+
+#mostrapassword{
+    display: block;
+    background-color: transparent;
+    margin: -10px auto 0  auto;
+
+}
+#trocar{
+    background-color: transparent;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: 16px;
+
+}
